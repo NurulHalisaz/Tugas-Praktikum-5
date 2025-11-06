@@ -1,0 +1,200 @@
+*{
+ box-sizing: border-box;
+}
+
+body {
+ font-family: Arial, sans-serif;
+ background-color: #f9f9f9;
+ margin: 0;
+ padding: 0;
+}
+
+.container{
+ display: flex;
+ flex-basis: wrap;
+ justify-content: center;
+}
+
+.sidebar {
+ flex: 20%;
+ background-color: #444;
+ height: 100vh;
+}
+sidebar nav ul {
+ list-style-type: none;
+ padding: 0; 
+}
+.sidebar nav ul li {
+ border-bottom: 1px dotted #5e5d5d;
+}
+.sidebar nav ul li a {
+ text-decoration: none;
+ color: white;
+ display: block;
+ padding: 20px 20px;
+ background-color: #444;
+ border-radius: 4px;
+ text-align: center;
+}
+.sidebar nav ul li a:hover {
+ background-color: #555;
+}
+section.content {
+ flex: 80%;
+ padding: 20px;
+ height: 100vh;
+ overflow: scroll; }
+
+header {
+ background-color: #333;
+ color: #fff;
+ text-align: left;
+ padding: 15px 20px; 
+}
+
+.add-button {
+ margin-bottom: 20px;
+ text-align: left;
+}
+.add-button button {
+ background-color: #28a745;
+ color: white;
+ padding: 10px 15px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer; 
+}
+.add-button button:hover {
+ background-color: #218838;
+}
+
+table {
+ width: 100%;
+ border-collapse: collapse;
+ margin-bottom: 20px;
+ background-color: #fff;
+}
+table th, table td {
+ padding: 10px;
+ text-align: left;
+ border-bottom: 1px solid #ddd;
+}
+table th {
+ background-color: #333;
+ color: white; 
+}
+table img {
+ border-radius: 4px;
+}
+
+.edit-btn, .delete-btn {
+ padding: 5px 10px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer; }
+.edit-btn {
+ background-color: #007bff;
+ color: white; }
+.edit-btn:hover {
+ background-color: #0056b3;
+}
+.delete-btn {
+ background-color: #dc3545;
+ color: white; 
+}
+.delete-btn:hover {
+ background-color: #c82333;
+}
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+}
+.sidebar {
+  width: 200px;
+  background-color: #34495e;
+  min-height: 100vh;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar li {
+  border-bottom: 1px solid #2c3e50;
+}
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+}
+.sidebar a:hover, .sidebar a.active {
+  background-color: #1abc9c;
+}
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  background: white;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+form button, .btn-kembali {
+  padding: 10px 20px;
+  border: none;
+  background-color: #1abc9c;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn-kembali {
+  background-color: gray;
+  text-decoration: none;
+}
+/* modul 4*/
+form {
+ background-color: #fff;
+ padding: 2rem;
+ margin: 1rem 0;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+ display: block;
+ margin-bottom: 8px;
+}
+input[type="text"], input[type="file"] {
+ width: 100%;
+ padding: 8px;
+ margin-bottom: 1rem;
+ border: 1px solid #ddd;
+ border-radius: 4px;
+}
+.menu{
+ padding: 0;
+}
+
+.menu li{
+ border-bottom: 1px dotted #444;
+}
+
+.menu a{
+ display: block;
+ padding: 20px 20px;
+ list-style: none;
+ color: #fff;
+ text-decoration: none;
+}
+
+.menu a:hover{
+ background: #000;
+}
+
+
